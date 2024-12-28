@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Epilogue", serif;
+    background-color:  hsl(0, 0%, 98%);
+}
+
 
 .navbar {
     display: flex;
@@ -36,4 +41,46 @@
 
 .hero-img{
     width: 100%;
+}
+
+.cta{
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta h1 {
+    font-size: 2rem;
+    color: hsl(0, 0%, 8%);
+}
+
+.cta p{
+    width: 63%;
+    color: hsl(0, 0%, 41%);
+    line-height: 25px;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.cta a{
+    border: 1px solid black;
+    background-color: hsl(0, 0%, 8%);
+    padding: 12px 18px;
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-top: 1.8rem;
+}
+
+footer .client-img{
+    width: 100%;
+}
+
+footer .client-img img{
+    padding: 0 1rem;
+    margin: 3.4rem 0 5rem 0;
 }
