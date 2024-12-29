@@ -7,6 +7,7 @@
 body{
     font-family: "Epilogue", serif;
     background-color:  hsl(0, 0%, 98%);
+    position: relative;
 }
 
 
@@ -83,4 +84,56 @@ footer .client-img{
 footer .client-img img{
     padding: 0 1rem;
     margin: 3.4rem 0 5rem 0;
+}
+
+
+.overlay{
+    position: fixed;
+    top: 0;
+    background-color: hsl(0, 0%, 8%);
+    width: 100%;
+    height: 100vh;
+    opacity: .7;
+    display: none;
+    z-index: 0;
+}
+
+/* .openDrawer {
+    transform: translateX(-400px);
+} */
+
+
+.mobileNavLinks {
+    width: 100%;
+    background-color:  hsl(0, 0%, 98%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    /* right: -470px; */
+    padding: 16px;
+    transition: transform 0.5s;
+
+}
+
+.mobileLinks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+    
+}
+
+.mobileLinks a{
+    color: hsl(0, 0%, 41%);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.arrow-down{
+    margin-left: 10px;
 }
