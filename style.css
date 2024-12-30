@@ -121,7 +121,7 @@ footer .client-img img{
 .mobileLinks{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 50px;
    
     
 }
@@ -137,3 +137,18 @@ footer .client-img img{
 .arrow-down{
     margin-left: 10px;
 }
+
+.registerLink{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.registerLink a{
+    color: hsl(0, 0%, 41%);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
