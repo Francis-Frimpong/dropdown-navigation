@@ -156,3 +156,23 @@ footer .client-img img{
     display: none;
 }
 
+.featuresList{
+    list-style: none;
+    margin-left: 40px;
+    /* display: none; */
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+li a{
+    margin-left: 15px;
+}
+
+.companyList{
+    list-style: none;
+    margin-left: 40px;
+    /* display: none; */
+}
+
