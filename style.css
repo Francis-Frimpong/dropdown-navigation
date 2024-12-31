@@ -159,7 +159,7 @@ footer .client-img img{
 .featuresList{
     list-style: none;
     margin-left: 40px;
-    /* display: none; */
+    display: none;
 }
 
 li{
@@ -173,6 +173,11 @@ li a{
 .companyList{
     list-style: none;
     margin-left: 40px;
-    /* display: none; */
+    display: none;
 }
+
+.dropdownLink{
+    display: block;
+}
+
 
