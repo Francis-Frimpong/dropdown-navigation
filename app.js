@@ -6,6 +6,9 @@ const overlay = document.querySelector('.overlay')
 const mobileLinks = document.querySelector('.mobileLinks');
 const linkedList = document.querySelector('.linkedList');
 
+const arrowUp = document.querySelector('.arrow-up');
+const arrowDown = document.querySelector('.arrow-down');
+
 hamburgerManu.addEventListener('click', () => {
     mobileNavLinks.classList.toggle('openDrawer');
     overlay.style.display = "block";
@@ -18,6 +21,8 @@ closeManu.addEventListener('click', () => {
 
 })
 
+
+//Creation of event listener for dropdown manu of mobile navigation slider
 mobileLinks.addEventListener('click', (e) => {
     // if(e.target.classList.contains("dropdown")){
     //     linkedList.classList.toggle('dropdownLink');
@@ -32,5 +37,8 @@ mobileLinks.addEventListener('click', (e) => {
         if (linkedList && linkedList.classList.contains('linkedList')) {
             linkedList.classList.toggle('dropdownLink');
         }
+
+        arrowUp.style.display = "block";
+        arrowDown.style.display = "none";
     }
 })
