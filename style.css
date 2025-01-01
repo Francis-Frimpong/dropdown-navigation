@@ -176,6 +176,14 @@ li a{
     display: none;
 }
 
+.arrow-down {
+    transition: transform 0.3s ease;
+}
+
+.arrow-rotate {
+    transform: rotate(180deg);
+}
+
 .dropdownLink{
     display: block;
 }
