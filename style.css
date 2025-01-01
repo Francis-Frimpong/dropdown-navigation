@@ -198,3 +198,47 @@ li a{
     cursor: pointer;
 }
 
+
+@media only screen and (min-width:1200px) {
+    .links , .login-register{
+        display: block;
+    }
+
+    .mobileNavLinks {
+       display: none;
+    }
+
+    .mobile-manu{
+        display: none;
+    }
+
+    .hero-img{
+        width: 68%;
+    }
+
+    .cta-content{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 50px;
+    }
+
+    
+    
+    .cta h1 {
+        font-size: 5rem;
+        width: 67%;
+        margin-top: -2%;
+        margin-bottom: -5%;
+        text-align: start;
+    }
+
+    .cta p{
+        width: 50%;
+        color: hsl(0, 0%, 41%);
+        line-height: 28px;
+        padding-top: 120px;
+        text-align: start;
+        
+    }
+}
+
