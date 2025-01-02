@@ -32,7 +32,7 @@ body{
 }
 
 .login-register a{
-    padding-left: 50px;
+    margin-left: 50px;
     text-decoration: none;
 }
 
@@ -144,6 +144,16 @@ footer .client-img img{
     margin-left: 100px;
 }
 
+.registerLink .register{
+    display: inline;
+    border: 2px solid hsl(0, 0%, 41%);
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    
+    
+}
+
 .registerLink a{
     color: hsl(0, 0%, 41%);
     font-size: 1rem;
@@ -239,6 +249,34 @@ li a{
         padding-top: 120px;
         text-align: start;
         
+    }
+    .navbar a{
+        color: hsl(0, 0%, 41%);
+        font-weight: 500;
+
+    }
+    .register{
+        border: 2px solid hsl(0, 0%, 41%);
+        padding: 10px 20px;
+        border-radius: 15px;
+    }
+
+    .links{
+        position: relative;
+    }
+
+    .featuresList, .companyList{
+        display: block;
+    }
+
+    .featuresList{
+        position: absolute;
+        display: none;
+
+    }
+
+    .companyList{
+        position: absolute;
     }
 }
 
