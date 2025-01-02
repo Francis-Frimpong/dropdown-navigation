@@ -210,6 +210,8 @@ li a{
 
 
 @media only screen and (min-width:1200px) {
+
+    
     .links , .login-register{
         display: block;
     }
@@ -265,18 +267,42 @@ li a{
         position: relative;
     }
 
-    .featuresList, .companyList{
+    .featuresList,.companyList{
         display: block;
     }
 
     .featuresList{
         position: absolute;
-        display: none;
+        display: block;
+        left: -20px;
+        top: 25px;
+        background-color: hsl(0, 0%, 98%);
+        box-shadow: 19px 17px 52px -22px rgb(105, 105, 105, 2);
 
+    }
+
+    .companyList li a{
+        margin-left:0;
+        padding-left: 0;
+        
+        /* margin-bottom: 15px; */
+    }
+
+    .companyList li{
+        margin-bottom: 0;
+        padding-bottom: 10px;
     }
 
     .companyList{
         position: absolute;
+        left: 225px;
+        top: 25px;
+        background-color: hsl(0, 0%, 98%);
+        box-shadow: 19px 17px 52px -22px rgb(105, 105, 105, 2);
+        text-align: start;
+        padding: 20px 30px;
+        border-radius: 10px;
+       
     }
 }
 
