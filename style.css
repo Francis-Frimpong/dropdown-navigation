@@ -31,6 +31,11 @@ body{
     text-decoration: none;
 }
 
+.links a:hover{
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
 .login-register a{
     margin-left: 50px;
     text-decoration: none;
@@ -144,15 +149,6 @@ footer .client-img img{
     margin-left: 100px;
 }
 
-.registerLink .register{
-    display: inline;
-    border: 2px solid hsl(0, 0%, 41%);
-    padding: 10px 20px;
-    border-radius: 15px;
-    box-sizing: border-box;
-    
-    
-}
 
 .registerLink a{
     color: hsl(0, 0%, 41%);
@@ -225,20 +221,20 @@ li a{
     }
 
     .hero-img{
-        width: 68%;
+        width: 65%;
     }
 
     .cta-content{
         display: flex;
         flex-direction: row-reverse;
-        margin-top: 50px;
+        justify-content: space-evenly;
+        margin: 0 auto;
     }
-
     
     
     .cta h1 {
-        font-size: 5rem;
-        width: 67%;
+        font-size: 3.5rem;
+        width: 47%;
         margin-top: -2%;
         margin-bottom: -5%;
         text-align: start;
@@ -248,9 +244,13 @@ li a{
         width: 50%;
         color: hsl(0, 0%, 41%);
         line-height: 28px;
-        padding-top: 120px;
+        margin: 0;
         text-align: start;
         
+    }
+
+    .client-img > img{
+        margin-bottom: 0;
     }
     .navbar a{
         color: hsl(0, 0%, 41%);
@@ -267,19 +267,24 @@ li a{
         position: relative;
     }
 
-    .featuresList,.companyList{
-        display: block;
-    }
 
     .featuresList{
         position: absolute;
-        display: block;
         left: -20px;
         top: 25px;
         background-color: hsl(0, 0%, 98%);
         box-shadow: 19px 17px 52px -22px rgb(105, 105, 105, 2);
+        padding: 20px 40px;
+        border-radius: 10px;
 
     }
+    
+
+    .featuresList > li a{
+        padding-left: 0;
+        margin-left: 10px;
+    }
+   
 
     .companyList li a{
         margin-left:0;
@@ -304,5 +309,7 @@ li a{
         border-radius: 10px;
        
     }
+
+    
 }
 
