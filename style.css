@@ -220,38 +220,51 @@ li a{
         display: none;
     }
 
-    .hero-img{
-        width: 65%;
-    }
+    
 
     .cta-content{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        margin: 0 auto;
+        display: grid;
+        height: inherit;
+        grid-template-areas: 
+            "cta hero-img";
+        position: relative;
     }
+
+    .hero-img{
+        width: 70%;
+        grid-area: hero-img;
+    }
+
+    .cta {
+        grid-area: cta;
+    }
+
+
     
     
     .cta h1 {
-        font-size: 3.5rem;
-        width: 47%;
-        margin-top: -2%;
-        margin-bottom: -5%;
+        font-size: 4rem;
+        width: 27%;
         text-align: start;
+        position: absolute;
+        top: 155px;
+        left: 13.5%;
+       
     }
 
     .cta p{
         width: 50%;
         color: hsl(0, 0%, 41%);
         line-height: 28px;
-        margin: 0;
         text-align: start;
-        
+        margin-top: 100px;
     }
 
-    .client-img > img{
-        margin-bottom: 0;
+    .cta a{
+       margin-left: 0;
+
     }
+
     .navbar a{
         color: hsl(0, 0%, 41%);
         font-weight: 500;
@@ -270,11 +283,11 @@ li a{
 
     .featuresList{
         position: absolute;
-        left: -20px;
+        left: -6px;
         top: 25px;
         background-color: hsl(0, 0%, 98%);
         box-shadow: 19px 17px 52px -22px rgb(105, 105, 105, 2);
-        padding: 20px 40px;
+        padding: 15px 35px;
         border-radius: 10px;
 
     }
@@ -289,8 +302,6 @@ li a{
     .companyList li a{
         margin-left:0;
         padding-left: 0;
-        
-        /* margin-bottom: 15px; */
     }
 
     .companyList li{
@@ -310,6 +321,14 @@ li a{
        
     }
 
+
+    footer .client-img{
+        margin-bottom: -500px;
+    }
+
+    footer .client-img  img{
+        margin-bottom: 0;
+    }
     
 }
 
